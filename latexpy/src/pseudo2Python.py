@@ -1,8 +1,22 @@
 import sys
 import PseudocodePy
 
-input = r"""{}""".format(sys.argv[0])
+file_path = sys.argv[1]
 
-result = PseudocodePy.p(input)
+try:
+    with open(file_path, 'r') as file:
+        multiline_string = file.read()
+        # Assuming you want to process the multiline string
+        print(multiline_string)
+except FileNotFoundError:
+    print(f"Error: File not found at {file_path}")
+except Exception as e:
+    print(f"Error: {e}")
 
-print(result)
+print("-------------------")
+
+result = PseudocodePy.p(str(multiline_string))
+
+#print(result)
+
+print('latexpy_result\n' + result)

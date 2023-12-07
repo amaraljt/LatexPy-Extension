@@ -1,6 +1,7 @@
 {
   "name": "latexpy",
   "displayName": "LatexPy",
+  "publisher": "szensei",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -14,12 +15,13 @@
   "contributes": {
     "commands": [
       {
-        "command": "latexpy.psuedo2Python",
-        "title": "Psuedocode to Python"
+        "command": "latexpy.pseudo2Python",
+        "title": "Pseudocode to Python"
       }
     ]
   },
   "scripts": {
+    "publish": "vsce publish",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
@@ -28,14 +30,15 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.84.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
+    "@types/vscode": "^1.84.0",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
-    "eslint": "^8.54.0",
-    "typescript": "^5.3.2",
     "@vscode/test-cli": "^0.0.4",
-    "@vscode/test-electron": "^2.3.8"
+    "@vscode/test-electron": "^2.3.8",
+    "@vscode/vsce": "^2.22.0",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2"
   }
 }

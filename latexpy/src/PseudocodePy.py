@@ -664,8 +664,7 @@ def p(st, info=False, output=False, nocolor=False):
   st = '\n'.join(formatted_lines)
   l(st, info, output, nocolor)
   
-  res = exp_out[:]
-  
+  res = expressions_to_str(exp_out[:])
   # clear exp_out list
   exp_out.clear()
   return res

@@ -1,0 +1,12 @@
+  \algb
+    \Function{fibonacci}{n}
+      \If{n = 0}
+        \State \Return 0
+      \ElsIf{n = 1 \Or n = 2}
+        \State \Return 1
+      \Else
+        \State \Return fibonacci(n-1) + fibonacci(n-2)
+      \EndIf
+    \EndFunction
+    \Output fibonacci(9)
+  \alge
