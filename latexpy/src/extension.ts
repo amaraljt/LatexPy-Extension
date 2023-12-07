@@ -19,7 +19,7 @@ export function activate(context: vscode.ExtensionContext) {
 		// Display a message box to the user
 		vscode.window.showInformationMessage('Hello World from LatexPy!');
 
-		const pythonScriptPath = 'C:/Users/szens/OneDrive/Desktop/DesktopShit/CompSci/LatexPy-Extension/latexpy/src/psuedo2Python.py';
+		const pythonScriptPath = 'C:/Users/szens/OneDrive/Desktop/DesktopShit/CompSci/LatexPy-Extension/latexpy/src/pseudo2Python.py';
         const editor = vscode.window.activeTextEditor
 
         if (editor) {
@@ -29,7 +29,7 @@ export function activate(context: vscode.ExtensionContext) {
             // If text is selected, use the selection; otherwise, use the entire document content
             const latexInput = selection.isEmpty ? document.getText() : document.getText(selection);
 
-            const command = `python ${pythonScriptPath} "${latexInput}"`;
+            const command = `python ${pythonScriptPath} "${latexInput}"`; // r"""?
 
             exec(command, (error, stdout, stderr) => {
                 if (error) {
