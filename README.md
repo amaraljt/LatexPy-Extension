@@ -22,7 +22,7 @@ Note: If the extension does not work, you can follow [these](https://github.com/
 5. Do ``Ctrl+Shift+P`` to open the Command Palette and search for the command 'Pseudocode to Python' and hit enter
 6. LaTeX input will be parsed and printed out on at the bottom of the file
 
-*insert gif of instruction here*
+![](https://imgur.com/a/Md9GjdX)
 
 ### Videos
 [General Overview](https://youtu.be/e984FVpi2Lk) \
