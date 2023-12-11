@@ -25,7 +25,7 @@ Note: If the extension does not work, you can follow [these](https://github.com/
 *insert gif of instruction here*
 
 ### Videos
-[General Overview](https://youtu.be/e984FVpi2Lk)
+[General Overview](https://youtu.be/e984FVpi2Lk) /
 [Technical Overview](https://www.youtube.com/watch?v=KRNCYhavNjk)
 
 ## Future Work
