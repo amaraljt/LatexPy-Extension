@@ -13,7 +13,7 @@ The aim of this project is to use LaTeX as a high-level mathematical calculator 
 LaTeXPy can parse LaTeX math and pseudocode expressions and (attempts to) translate them to valid Python code. If the math expression is an assignment, the value of the right hand side is assigned to a Python variable with a similar name and can be used in subsequent LaTeX expressions.
 
 ## Setup Instructions
-Note: If the extension does not work, you can follow [these](https://github.com/amaraljt/LaTeXPy/tree/main/prototype) instructions for an alternate way to try out LaTeXPy
+Note: If the extension does not work, you can follow [these](https://github.com/amaraljt/LatexPy-Extension/blob/main/docs/alt-instructions.md) instructions for an alternate way to try out LaTeXPy
 
 1. Open VSCode and go to the Extensions tab
 2. Search for 'LatexPy' and install
