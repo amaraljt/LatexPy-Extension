@@ -25,8 +25,8 @@ Note: If the extension does not work, you can follow [these](https://github.com/
 *insert gif of instruction here*
 
 ### Videos
-link to general overview here...
-link to technical review here...
+[General Overview](https://youtu.be/e984FVpi2Lk)
+[Technical Overview](https://www.youtube.com/watch?v=KRNCYhavNjk)
 
 ## Future Work
 - Add more mathematical and pseudocode parsing capabilities
