@@ -1,0 +1,4 @@
+# Peer Review
+
+## New Feature by Peer + Feedback
+The new feature that was implemented by our peer, Peter, was a save function that allows users to save all assignment statements in pseudocode into a text file. Peter was able to edit our ``process()`` function and grab assignment statements that were written by the user. At first, I didn't understand the reasoning for such a function and maybe at its early stage there is not a big enough reason to add it to LaTeXPy, but I realized this was not the case. Peter's function is a stepping stone to allow for a friendly debugging experience when runtime issues arise. Being able to have assignment statements print into a text file could help pinpoint some user errors or code errors which will further help the development process of LaTeXPy. We decided to accept Peter's implementation into LaTeXPy so that we may expand this function to give a proper user experience for debugging their parsible input.
